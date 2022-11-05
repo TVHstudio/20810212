@@ -2,7 +2,7 @@ const controller ={};
 //const { reject } = require('lodash');
 //const { promise } = require('selenium-webdriver');
 const models = require('../models');
-var Booking = models.Booking;
+let Booking = models.Booking;
 let Sequelize = require('sequelize');
 
 controller.getAll = (query) => {

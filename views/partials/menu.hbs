@@ -19,16 +19,16 @@
         </div>
 
         <div id="menu-wrapper">
-
+            {{#each menus}}
           <div class="breakfast menu-restaurant">
             <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">{{name}}</a>
               <span style="left: 166px; right: 44px;" class="menu-line"></span>
-              <span class="menu-price">$20.99</span>
+              <span class="menu-price">${{price}}</span>
             </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+            <span class="menu-subtitle">{{summary}}/span>
           </div>
-
+{{!-- 
           <div class="breakfast menu-restaurant">
             <span class="clearfix">
               <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
@@ -126,9 +126,9 @@
               <span class="menu-price">$20.99</span>
             </span>
             <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
+          </div> --}}
         </div>
-
+        {{/each}}
       </div>
     </div>
   </section>
