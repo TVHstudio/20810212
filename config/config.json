@@ -1,29 +1,35 @@
 {
-  "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "cuoiky",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "test": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "cuoiky",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "production": {
-    "username": "ptudw",
-    "password": "Kj5xlwkphoonXhFJj36LUUgGfbvkJEWN",
-    "database": "cuoiky",
-    "host": "dpg-cdi7rjsgqg4aiiseb19g-a.oregon-postgres.render.com",
-    "dialect": "postgres",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+    "development": {
+        "username": "suvjupjaxlhyxi",
+        "password": "dd4e2defba80b63e4d6161a024027e7ea6ed57a85b38f4273e0b6cb67ea3e9ea",
+        "database": "d9ce7gtr0bvn31",
+        "host": "ec2-54-208-104-27.compute-1.amazonaws.com",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+                }
+        }
+    },
+    "test": {
+        "username": "postgres",
+        "password": "postgres",
+        "database": "aromadb",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "suvjupjaxlhyxi",
+        "password": "dd4e2defba80b63e4d6161a024027e7ea6ed57a85b38f4273e0b6cb67ea3e9ea",
+        "database": "d9ce7gtr0bvn31",
+        "host": "ec2-54-208-104-27.compute-1.amazonaws.com",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+                }
+        }
     }
-  }
 }
