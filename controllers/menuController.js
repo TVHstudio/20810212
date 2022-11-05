@@ -2,7 +2,7 @@ const controller ={};
 //const { reject } = require('lodash');
 //const { promise } = require('selenium-webdriver');
 const models = require('../models');
-let Menu = models.menu;
+let Menu = models.Menu;
 let Sequelize = require('sequelize');
 
 controller.getAll = () => {
