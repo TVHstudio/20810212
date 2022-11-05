@@ -17,7 +17,8 @@ let hbs = expressHbs.create({
     // }   
 });
 app.engine('hbs',hbs.engine);
-app.set('view engine', 'hbs');  
+app.set('view engine', 'hbs'); 
+app.use('/',require('./routes/indexRoutes')); 
 
 app.get('/sync',(req,res) => {
     let models = require('./models');
